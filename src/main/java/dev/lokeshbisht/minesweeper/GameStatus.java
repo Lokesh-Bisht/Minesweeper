@@ -7,7 +7,7 @@ public interface GameStatus {
     }
 
     static void printGameOverMessage() {
-        System.out.printf("You stepped on a mine and failed!%n%n");
+        System.out.printf("Game Over!. You stepped on a mine and failed!%n%n");
     }
 
     // Prints the current status of the hidden field.
